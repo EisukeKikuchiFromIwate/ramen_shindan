@@ -6,22 +6,23 @@
 
 .choose_box {
   position: relative;
+  display: flex;
   height: 50vw;
   width: 100%;
 }
 
 .choose_box p {
-    font-size: 24px;
-    display: block;
-    font-weight: 600;
-    text-align: center;
+  font-size: 24px;
+  display: block;
+  font-weight: 600;
+  text-align: center;
 }
 
 .choose_box ul {
-    width: 80%;
-    text-align: center;
-    margin: auto;
-   display:flex;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  display:flex;
   flex-wrap: wrap;
 }
 .choose_box ul li {
@@ -32,43 +33,65 @@
 }
 
 .choose_box ul li:nth-child(2n) {
-   margin-right: 0;
+  margin-right: 0;
 }
 .choose_box ul li a {
   color: #fff;
   display: block;
   padding: 20px 60px;
   text-align: center;
-  background-color: #2791d4;
+  background-color: #d44727;
   font-weight: 600;
   font-size: 18px;
-  border: 2px solid #2791d4;
+  border: 2px solid #d44727;
   text-decoration: none;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
 
-.choose_box ul li a:hover {
-   background-color: #fff;
-  color: #2791d4;
-    -webkit-transition: 0.7s;
-    -moz-transition: 0.7s;
-    -o-transition: 0.7s;
-    transition: 0.7s;
+
+
+.choose_box ul li a:hover,.choose_box h3 a:hover {
+  background-color: #fff;
+  color: #d44727;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+h3 {
+  margin: auto;
+  width: calc(100% - 30%);
+  background-color: #d44727;
+  border: 2px solid #d44727;
+  text-decoration: none;
+  border-radius: 6px;
+}
+h3 a {
+  color: #fff;
+  display: block;
+  padding: 20px 60px;
+  text-align: center;
+  background-color: #d44727;
+  font-weight: 600;
+  font-size: 18px;
+  border: 2px solid #d44727;
+  text-decoration: none;
+  border-radius: 6px;
 }
 
 h4 {
-    width: 50%;
-    clear: both;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-  background-color: #d4a327;
+  width: 50%;
+  clear: both;
+  margin: auto;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #d44727;
 }
 
 .fit {
@@ -78,12 +101,12 @@ h4 {
   width: 100%;
 }
 
-#q_06 span,#q_07 span {
+.answer span {
   display: block;
   width:100%;
 }
 
-#q_06 a,#q_07 a {
+.answer a {
   display: block;
   width:100%;
   text-align: center;

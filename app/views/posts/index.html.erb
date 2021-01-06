@@ -1,71 +1,75 @@
 
 
+
 <div class="choose_box">
-  <%# 最初の選択肢 %>
-  <div id="q_01" class="fit">
-    <p>質問1</p>
+  <%# 導入 %>
+  <div id="q_00" class="fit">
+    <p>ラーメン診断</p>
+    <h3><a class="btn" href="#q_01">スタート</a></h3>
+  </div>
+  <%# 導入 %>
+
+  <%# 質問１ %>
+  <div id="q_01" style="display: none;">
+    <p>あっさり？ こってり？</p>
     <ul class="flexbox fw">
-    <li class="even"><a class="btn" href="#q_02">選択肢1</a></li>
-    <li class="odd"><a class="btn" href="#q_03">選択肢2</a></li>
-    <li class="odd"><a class="btn" href="#q_04">選択肢3</a></li>
-    <li class="odd"><a class="btn" href="#q_05">選択肢4</a></li>
+      <li class="even"><a class="btn" href="#q_02">あっさり</a></li>
+      <li class="odd"><a class="btn" href="#q_03">こってり</a></li>
     </ul>
   </div>
-  <%# 最初の選択肢 %>
+  <%# 質問１ %>
     
-  <%# 次の選択肢 %>
+  <%# 質問２ %>
   <div id="q_02" style="display: none;">
-    <p>質問2？</p>
+    <p>今の気分は？</p>
       <ul class="flexbox fw">
-      <li class="even"><a class="btn" href="#q_06">選択肢1-1</a></li>
-      <li class="odd"><a class="btn" href="#q_07">選択肢1-2</a></li>
+        <li class="even"><a class="btn" href="#q_04">浜の香り〜</a></li>
+        <li class="odd"><a class="btn" href="#q_05">コクと深み..</a></li>
       </ul>
   </div>
-  <%# 次の選択肢 %>
+  <%# 質問２ %>
   
-  <%# 次の選択肢 %>
+  <%# 質問３ %>
   <div id="q_03" style="display: none;">
-    <p>質問2？</p>
+    <p>今の気分は？</p>
       <ul class="flexbox fw">
-      <li class="even"><a class="btn" href="#q_06">選択肢2-1</a></li>
-      <li class="odd"><a class="btn" href="#q_07">選択肢2-2</a></li>
+        <li class="even"><a class="btn" href="#q_06">スタミナパワー！！</a></li>
+        <li class="odd"><a class="btn" href="#q_07">優しくマイルド</a></li>
     </ul>
   </div>
-  <%# 次の選択肢 %>
+  <%# 質問３ %>
     
-  <%# 次の選択肢 %>
-  <div id="q_04" style="display: none;">
-    <p>質問2？</p>
-      <ul class="flexbox fw">
-      <li class="even"><a class="btn" href="#q_06">選択肢3-1</a></li>
-      <li class="odd"><a class="btn" href="#q_07">選択肢3-2</a></li>
-      </ul>
-  </div>
-  <%# 次の選択肢 %>
-    
-  <%# 次の選択肢 %>
-  <div id="q_05" style="display: none;">
-    <p>質問2？</p>
-      <ul class="flexbox fw">
-      <li class="even"><a class="btn" href="#q_06">選択肢4-1</a></li>
-      <li class="odd"><a class="btn" href="#q_07">選択肢4-2</a></li>
-    </ul>
-  </div>
-  <%# 次の選択肢 %>
-    
+  <div class = "answer">
   <%# 選択肢の答え① %>
+  <div id="q_04" style="display: none;">
+          <p>あなたにおすすめなのは…</p>
+          <h4>『塩ラーメン』です！！</h4>
+    <span><a class="btn" href="#q_00">もどる</a></span>
+  </div>
+  <%# 選択肢の答え① %>
+    
+  <%# 選択肢の答え② %>
+  <div id="q_05" style="display: none;">
+          <p>あなたにおすすめなのは…</p>
+          <h4>『醤油ラーメン』です！！</h4>
+      <span><a class="btn" href="#q_00">もどる</a></span>
+  </div>
+  <%# 選択肢の答え② %>
+
+    <%# 選択肢の答え③ %>
   <div id="q_06" style="display: none;">
           <p>あなたにおすすめなのは…</p>
-          <h4>『答え①』です！！</h4>
-    <span><a class="btn" href="#q_01">もどる</a></span>
+          <h4>『とんこつラーメン』です！！</h4>
+    <span><a class="btn" href="#q_00">もどる</a></span>
   </div>
-  <%# 選択肢の答え① %>
+  <%# 選択肢の答え③ %>
     
-  <%# 選択肢の答え② %>
+  <%# 選択肢の答え④ %>
   <div id="q_07" style="display: none;">
           <p>あなたにおすすめなのは…</p>
-          <h4>『答え②』です！！</h4>
-      <span><a class="btn" href="#q_01">もどる</a></span>
+          <h4>『味噌ラーメン』です！！</h4>
+      <span><a class="btn" href="#q_00">もどる</a></span>
   </div>
-  <%# 選択肢の答え② %>
+  <%# 選択肢の答え④ %>
+  </div>
 </div>
